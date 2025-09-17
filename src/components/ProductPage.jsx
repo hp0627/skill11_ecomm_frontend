@@ -3,7 +3,7 @@ import { getProducts } from "../services/productService";
 import { addToCart } from "../services/cartService";
 import "./style.css";
 
-const BASE_URL = '34.229.200.189:8083/back1';
+const BASE_URL = 'http://34.229.200.189:8083/back1';
 
 const ProductPage = ({ category }) => {
   const [products, setProducts] = useState([]);
