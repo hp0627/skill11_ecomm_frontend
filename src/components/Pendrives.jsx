@@ -4,7 +4,7 @@ import { getProducts } from "../services/productService";
 import { useNavigate } from "react-router-dom";
 import "./style.css";
 
-const BASE_URL = '34.229.200.189:8083/back1';
+const BASE_URL = 'http://34.229.200.189:8083/back1';
 
 const Pendrives = () => {
   const [products, setProducts] = useState([]);
